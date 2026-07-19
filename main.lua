@@ -1,6 +1,3 @@
-loadstring(game:HttpGet("https://api.getvortex.vip/scripts/VortexMain"))()
-task.wait(3)
-
 local plr = game:GetService("Players").LocalPlayer
 local rs = game:GetService("ReplicatedStorage")
 
@@ -19,3 +16,6 @@ mt.__namecall = function(self, ...)
 	end
 	return old(self, ...)
 end
+
+task.wait(0.5)
+loadstring(game:HttpGet("https://api.getvortex.vip/scripts/VortexMain"))()
