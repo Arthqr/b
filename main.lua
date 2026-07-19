@@ -4,8 +4,8 @@ task.wait(3)
 local plr = game:GetService("Players").LocalPlayer
 local rs = game:GetService("ReplicatedStorage")
 
-local r1 = rs:WaitForChild("GpP"):WaitForChild("d502bb53-208f-40ad-ba58-27f59d357f37")
-local r2 = rs:WaitForChild("GpP"):WaitForChild("2800de1a-2381-4d56-8106-04d5aabcc7f4")
+local r1 = rs:WaitForChild("GpP"):WaitForChild("ac659094-8b11-4064-b9b7-b81cdbe6a9b3")
+local r2 = rs:WaitForChild("GpP"):WaitForChild("e0068d51-9429-49ed-8452-6bd436293530")
 
 local mt = getrawmetatable(r1)
 setreadonly(mt, false)
